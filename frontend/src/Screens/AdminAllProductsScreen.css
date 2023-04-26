@@ -1,0 +1,51 @@
+.deleteBtn {
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ed2d2f;
+  color: #fff;
+}
+.deleteBtn:hover {
+  animation: shake 0.5s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+.shopDelete {
+  border: none;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  background-color: #ed2d2f;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.shopDelete:hover {
+  background-color: #c72729;
+  transition: all 0.1s ease-in-out;
+}
+.shopHeader {
+  display: inline;
+  font-size: 20px;
+}

@@ -1,0 +1,58 @@
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+}
+.heroSubtitle {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(66, 66, 66);
+}
+.goHomeButton {
+  border: 1px solid #37bdae;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.optionsContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.sizeOptionContainer {
+  margin-left: 15px;
+}
+.category {
+  color: rgba(134, 134, 134, 0.719);
+  padding: 0 12px;
+  font-size: 14px;
+}
+.removeBtn {
+  background-color: #fff;
+  color: #37bdae;
+  border: 1px solid #37bdae;
+  border-radius: 10px;
+  margin-left: 12px;
+  padding: 5px 30px;
+  width: auto;
+}
+.orderbutton {
+  color: #fff;
+  background-color: #37bdae;
+  font-weight: 900;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 0;
+  text-transform: uppercase;
+}

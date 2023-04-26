@@ -1,0 +1,15 @@
+.paymentBtn {
+  margin-top: 20px;
+  background-color: #37bdae;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  width: 50%;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.paymentBtn:hover {
+  color: #fff;
+}

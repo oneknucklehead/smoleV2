@@ -1,0 +1,9 @@
+.link {
+  color: #37bdae;
+  text-transform: uppercase;
+
+  font-weight: bold;
+}
+.link:hover {
+  color: #37bdae;
+}

@@ -1,0 +1,32 @@
+.addressContainer {
+  color: #37bdae;
+  font-size: 19px;
+}
+.postalAndName {
+  font-weight: bold;
+}
+.address {
+  margin: 0%;
+  padding: 0%;
+  font-size: 12px;
+}
+.paymentHeader {
+  margin: 10px 0;
+  padding: 0;
+}
+.categoryStyle {
+  margin: 0;
+  padding: 0;
+  color: rgb(133, 133, 133);
+}
+.orderBtn {
+  width: 95%;
+  border: none;
+  height: 40px;
+  background-color: #37bdae;
+  color: #fff;
+  border-radius: 4px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}

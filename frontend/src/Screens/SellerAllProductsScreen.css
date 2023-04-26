@@ -1,0 +1,13 @@
+.editShopBtn {
+  border: none;
+  font-size: 16px;
+  padding: 0 15px;
+  width: auto;
+  height: 30px;
+  border-radius: 3px;
+  margin-right: 20px;
+  color: #fff;
+  background-color: rgb(26, 26, 26);
+  text-align: center;
+  line-height: 30px;
+}

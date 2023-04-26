@@ -1,0 +1,127 @@
+.productName {
+  font-size: xx-large;
+  color: #58595b !important;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+.dropdownContainer {
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  cursor: pointer;
+}
+.price {
+  font-size: 18px;
+}
+.category {
+  padding: 0;
+  margin: 0;
+  font-weight: 900;
+  color: rgb(114, 114, 114);
+}
+.shopName {
+  padding: 0;
+  margin: 0;
+}
+.button {
+  background-color: #37bdae;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+select {
+  margin-left: 15px;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 1px 5px;
+}
+
+.sizeContainer {
+  display: flex;
+  /* overflow: hidden; */
+}
+
+.sizeContainer input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  /* height: 2px;
+  width: 2px; */
+  border: 0;
+  overflow: hidden;
+}
+.sizeContainer input:disabled + label {
+  color: red;
+  cursor: not-allowed;
+}
+
+.sizeContainer label {
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  padding: 14px 13px;
+  margin-right: 10px;
+  border: 2px solid rgb(141, 141, 141);
+  transition: all 0.1s ease-in-out;
+}
+
+.sizeContainer label:hover {
+  cursor: pointer;
+}
+
+.sizeContainer input:checked + label {
+  border: 3px solid #37bdae;
+}
+
+.sizeContainer label:first-of-type {
+  border-radius: 100%;
+}
+.reviewStar {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.reviewStarContent {
+  background-color: #14958f;
+  color: #fff;
+  padding: 3.25px;
+  border-radius: 5px;
+}
+.reviewContent {
+  padding: 0;
+  margin: 0;
+}
+.reviewContent1 {
+  font-size: large;
+  padding: 0;
+  margin: 0;
+}
+.reviewContent2 {
+  font-size: small;
+  color: #565a63;
+  padding: 0;
+  margin: 0;
+}
+.imageWrapper {
+  overflow: hidden;
+}
+.productImage {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s;
+}
+.imageWrapper:hover .productImage,
+.imageWrapper:focus .productImage {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
