@@ -8,7 +8,7 @@ import userRoutes from './routes/userRoutes.js';
 import orderRoutes from './routes/orderRoutes.js';
 import imageUploadRoutes from './routes/imageUploadRoutes.js';
 import { errorHandler, notFound } from './middleware/errorMiddleWare.js';
-import path from 'path';
+import path, { dirname } from 'path';
 import Order from './models/orderModel.js';
 import Shops from './models/shopModel.js';
 import asyncHandler from 'express-async-handler';
@@ -42,8 +42,9 @@ app.get(
 );
 
 const __dirname = path.resolve();
+// console.log(path.resolve(__dirname, '../frontend', 'build'));
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.resolve(__dirname, 'frontend', 'build')));
+  app.use(express.static(path.resolve(__dirname, '../frontend', 'build')));
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'), function (err) {
       if (err) {
